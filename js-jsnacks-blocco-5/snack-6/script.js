@@ -16,19 +16,18 @@ const zucchine = [
 const zucchineLunghe = [];
 const zucchineCorte = [];
 
-
 zucchine.map((zucchina)=>{
     if(zucchina.length>15){
       zucchineLunghe.push(zucchina);
     
-    
+    }
+    else{
+      zucchineCorte.push(zucchina);
     }
 
-
-
-    
 })
 
-// console.log(zucchineLunghe)
+console.log(zucchineLunghe)
+console.log(zucchineCorte)
 
 
